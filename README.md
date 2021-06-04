@@ -14,7 +14,8 @@
 
 3. Git Repo 사용법
 4. Repo Github에서 보기
-5. Repo Readme 보는 법
+
+---
 
 ## 1. Git Repo 만들기
 
@@ -38,6 +39,8 @@ Initalize this Repository With 부분은 Repo에 대한 부가적인 부분입�
   ![github Repo Detail](./imgs/gitRepo.png)
 - Add .gitignore는 Git add, commit, push를 할 때 제거하고 github에 코드를 올리는 파일을 뜻합니다.
 
+---
+
 ## 2. Github Local 폴더에 저장법
 
 ---
@@ -50,6 +53,8 @@ Git Repo에서 Code 부분을 누르면 다음과 같이 Clone 밑에 HTTP/ SSH�
 #### Local 파일에서 Git을 추가해주는 방법
 
 Terminal창에서 원하는 Local 파일로 이동(`cd 파일 경로`)하여 `git init`을 사용하여 해당 파일에 git을 넣어주고 `git remote add origin Repo에서 복사한 Http`사용하여 github과 연결해 줍니다.
+
+---
 
 ## 3. Git Repo 사용법
 
@@ -67,3 +72,13 @@ Terminal창에서 원하는 Local 파일로 이동(`cd 파일 경로`)하여 `gi
 ![git add commit push Terminal 창](./imgs/addCommitPush.png)
 
 또한 여러 개발자들이 일할 때에는 코드가 업데이트 되었을 경우 `git pull`을 사용하여 로컬에서도 최신상태로 업데이트한 후 동일한 파일을 수정 가능합니다. 만약 최신화 하지 않고 같은 파일을 건드려 사용하여 git push를 사용하려 할때 오류가 발생하고 commit 충돌이 일어나 git이 꼬일 수 있습니다. 이부분을 주의하여 사용해주어야 합니다.
+
+---
+
+## 4. Repo Github에서 보기
+
+---
+
+회사 내 github으로 가서 접속하면 Repo의 List를 볼 수 있는데 원하는 Repo 이름을 클릭하게 되면 Readme파일이 보이는 부분이 업데이트 되어 있는 것을 볼 수 있다. 또한 위의 파일들을 누르면 해당 폴더를 미리 볼 수 있는 페이지가 나오게 된다.
+
+---
